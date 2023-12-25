@@ -17,7 +17,7 @@ const Hero = () => {
             <h3 className="text-3xl sm:text-5xl lg:text-6xl xl:text-7xl">
               PERFECT
             </h3>
-            <div className="relative bg-red-400 w-[130px] h-[200px] sm:w-[225px] md:w-[200px] lg:w-[230px] sm:h-[325px]">
+            <div className="relative w-[130px] h-[200px] sm:w-[225px] md:w-[200px] lg:w-[230px] sm:h-[325px]">
               <Image
                 src={img2}
                 alt="nil"
@@ -29,11 +29,11 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="lg:gap-10 flex flex-col -red-600 h-full gap-3 lg:items-center">
+          <div className="lg:gap-10  flex flex-col -red-600 h-full gap-3 lg:items-center">
             <h3 className="text-3xl text-center sm:text-5xl lg:text-6xl xl:text-7xl ">
               BALLANCE
             </h3>
-            <div className="relative bg-red-400 w-[130px] h-[200px] sm:w-[230px] sm:h-[325px]">
+            <div className="relative w-[130px] h-[200px] sm:w-[230px] sm:h-[325px]">
               <Image
                 src={img1}
                 alt="nil"
@@ -68,7 +68,7 @@ const Hero = () => {
           </h3>
         </div>
 
-        <p className="text-[0.5rem] sm:text-xs text-center w-full sm:w-[60%] md:w-[60%]">
+        <p className="text-[0.55rem] sm:text-xs sm:text-center w-full sm:w-[60%] md:w-[60%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
           repudiandae eaque reiciendis velit nostrum cumque fugiat consequatur
           quis inventore veritatis laboriosam, et sequi in voluptates harum.

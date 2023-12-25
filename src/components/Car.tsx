@@ -44,7 +44,7 @@ const Car = () => {
               height={100}
               width={100}
             />
-            <p className="font-regular w-4/5 md:w-3/5 text-center text-[0.3rem] md:text-xs">
+            <p className="font-regular w-[90%] md:w-3/5 text-center text-[0.5rem] md:text-xs">
               The Newest Town and local storer
             </p>
           </div>
@@ -56,7 +56,7 @@ const Car = () => {
               height={100}
               width={100}
             />
-            <p className="font-regular w-4/5 md:w-3/5 text-center text-[0.3rem] md:text-xs">
+            <p className="font-regular w-4/5 md:w-3/5 text-center text-[0.5rem] md:text-xs">
               Sports facilities and classes
             </p>
           </div>
@@ -68,7 +68,7 @@ const Car = () => {
               height={100}
               width={100}
             />
-            <p className="font-regular w-4/5 md:w-3/5 text-center text-[0.3rem] md:text-xs">
+            <p className="font-regular w-4/5 md:w-3/5 text-center text-[0.5rem] md:text-xs">
               Lakeview Conserv. Area
             </p>
           </div>
@@ -88,7 +88,7 @@ const Car = () => {
             }}
           >
             <Image
-              className="absolute top-[-3.4rem] h-[15rem] sm:h-[29rem] w-[335px]"
+              className="absolute  top-[-3.4rem] h-[15rem] sm:h-[29rem] w-[335px]"
               src={car}
               alt={"nil"}
             />
@@ -106,10 +106,10 @@ const Car = () => {
           {TimeFromCar.map((item, index) => (
             <div
               key={index}
-              className="flex flex-row gap-1 lg:gap-4 items-center"
+              className="flex flex-row gap-1 lg:gap-4 mr-2 items-center"
             >
-              <h3 className="text-xl sm:text-4xl lg:text-7xl">{item.time}</h3>
-              <p className="w-3/4 lg:w-1/2 text-[0.3rem] md:text-xs lg:text-sm">
+              <h3 className="text-2xl sm:text-4xl lg:text-7xl">{item.time}</h3>
+              <p className="w-3/4 lg:w-1/2 text-[0.4rem] md:text-xs lg:text-sm">
                 {item.title}
               </p>
             </div>
