@@ -93,11 +93,11 @@ const Car = () => {
               alt={"nil"}
             />
           </motion.div>
-          <div className="flex mx-auto flex-col gap-[20rem] -slate-500 w-[0.004rem] justify-center items-center">
-            <div className="w-4 h-4 rounded-full -orange-500 border-red-600 border-[1.5px]"></div>
-            <div className="w-4 h-4 rounded-full -orange-500 border-red-600 border-[1.5px]"></div>
-            <div className="w-4 h-4 rounded-full -orange-500 border-red-600 border-[1.5px]"></div>
-            <div className="w-4 h-4 rounded-full -orange-500 border-red-600 border-[1.5px]"></div>
+          <div className="flex mx-auto flex-col gap-[20rem] bg-slate-500 w-[0.004rem] justify-center items-center">
+            <div className="w-4 h-4 rounded-full bg-orange-500 border-red-600 border-[1.5px]"></div>
+            <div className="w-4 h-4 rounded-full bg-orange-500 border-red-600 border-[1.5px]"></div>
+            <div className="w-4 h-4 rounded-full bg-orange-500 border-red-600 border-[1.5px]"></div>
+            <div className="w-4 h-4 rounded-full bg-orange-500 border-red-600 border-[1.5px]"></div>
           </div>
         </div>
 
