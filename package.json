@@ -12,6 +12,7 @@
     "@gsap/react": "^2.0.2",
     "framer-motion": "^10.16.16",
     "gsap": "^3.12.4",
+    "lucide-react": "^0.302.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
