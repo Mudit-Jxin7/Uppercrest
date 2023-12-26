@@ -16,16 +16,21 @@ const Car = () => {
   const { scrollY } = useScroll();
 
   const [scroll, setScroll] = useState(0);
-  // const isAndroid: boolean = false;
-  // const isIOS: boolean = false;
 
-  // if (typeof window !== "undefined") {
-  const isAndroid = /Android/i.test(navigator.userAgent);
-  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+  // Check if navigator is defined (running in a browser environment)
+  let isAndroid = false;
+  let isIOS = false;
+  if (typeof navigator !== "undefined") {
+    isAndroid = /Android/i.test(navigator.userAgent);
+    isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
-  //   console.log("Is Android:", isAndroid);
-  //   console.log("Is iOS:", isIOS);
-  // }
+    console.log("Is Android:", isAndroid);
+    console.log("Is iOS:", isIOS);
+  } else {
+    console.log(
+      "navigator is not defined (not running in a browser environment)"
+    );
+  }
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScroll(latest);
