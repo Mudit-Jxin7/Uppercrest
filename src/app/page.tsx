@@ -7,7 +7,6 @@ import React from "react";
 const HomepPage = () => {
   return (
     <div className="bg-black min-h-screen overflow-hidden">
-      <div className="w-full h-[0.01rem] bg-slate-500 mb-5"></div>
       <Hero />
       <Car />
       <div className="w-full h-[0.01rem] bg-slate-500 my-10"></div>
