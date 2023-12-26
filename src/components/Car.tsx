@@ -16,16 +16,16 @@ const Car = () => {
   const { scrollY } = useScroll();
 
   const [scroll, setScroll] = useState(0);
-  const isAndroid: boolean = false;
-  const isIOS: boolean = false;
+  // const isAndroid: boolean = false;
+  // const isIOS: boolean = false;
 
-  if (typeof window !== "undefined") {
-    const isAndroid = /Android/i.test(navigator.userAgent);
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+  // if (typeof window !== "undefined") {
+  const isAndroid = /Android/i.test(navigator.userAgent);
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
-    console.log("Is Android:", isAndroid);
-    console.log("Is iOS:", isIOS);
-  }
+  //   console.log("Is Android:", isAndroid);
+  //   console.log("Is iOS:", isIOS);
+  // }
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     setScroll(latest);
@@ -92,9 +92,9 @@ const Car = () => {
               y:
                 Number(scroll.toFixed(1)) - 1000 <= 0
                   ? 0
-                  : Number(scroll.toFixed(1)) - 1000 >= 900 &&
+                  : Number(scroll.toFixed(1)) - 1000 >= 877 &&
                     (isAndroid || isIOS)
-                  ? 900
+                  ? 877
                   : Number(scroll.toFixed(1)) - 1000 >= 685 &&
                     !(isAndroid || isIOS)
                   ? 685
