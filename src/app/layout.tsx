@@ -21,7 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className="scroll-smooth"
+      style={{ scrollBehavior: "smooth" }}
+    >
       <body className={poppins.className}>
         <Navbar />
         <div className="w-full h-[0.01rem] bg-slate-500 mb-5"></div>

@@ -37,9 +37,36 @@ const Car = () => {
   });
 
   // console.log(scrollYProgress);
-  console.log(Number(scroll.toFixed(1)) - 1000);
+  console.log(Number(scroll.toFixed(1)) - 1900);
 
   // console.log(scrollY.MotionValue.current);
+
+  const calculateYValue = (
+    scroll: number,
+    isAndroid: boolean,
+    isIOS: boolean
+  ) => {
+    const adjustedScrollPc = Number(scroll.toFixed(1)) - 1900;
+    const adjustedScrollMobile = Number(scroll.toFixed(1)) - 1300;
+
+    if (isAndroid || isIOS) {
+      if (adjustedScrollMobile <= 0) {
+        return 0;
+      } else if (adjustedScrollMobile >= 877) {
+        return 877;
+      } else {
+        return adjustedScrollMobile;
+      }
+    } else {
+      if (adjustedScrollPc <= 0) {
+        return 0;
+      } else if (adjustedScrollPc >= 685) {
+        return 685;
+      } else {
+        return adjustedScrollPc;
+      }
+    }
+  };
 
   return (
     <>
@@ -94,16 +121,7 @@ const Car = () => {
           <motion.div
             initial={{ y: 0 }}
             whileInView={{
-              y:
-                Number(scroll.toFixed(1)) - 1000 <= 0
-                  ? 0
-                  : Number(scroll.toFixed(1)) - 1000 >= 877 &&
-                    (isAndroid || isIOS)
-                  ? 877
-                  : Number(scroll.toFixed(1)) - 1000 >= 685 &&
-                    !(isAndroid || isIOS)
-                  ? 685
-                  : Number(scroll.toFixed(1)) - 1000,
+              y: calculateYValue(scroll, isAndroid, isIOS),
             }}
           >
             <Image
@@ -140,3 +158,16 @@ const Car = () => {
 };
 
 export default Car;
+
+// {
+//   y:
+//     Number(scroll.toFixed(1)) - 1900 <= 0
+//       ? 0
+//       : Number(scroll.toFixed(1)) - 1900 >= 877 &&
+//         (isAndroid || isIOS)
+//       ? 877
+//       : Number(scroll.toFixed(1)) - 1900 >= 685 &&
+//         !(isAndroid || isIOS)
+//       ? 685
+//       : Number(scroll.toFixed(1)) - 1900,
+// }

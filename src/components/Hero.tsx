@@ -6,7 +6,7 @@ import img3 from "@/assets/img3.jpg";
 
 const Hero = () => {
   return (
-    <div className="flex w-full gap-16 md:gap-0 md:flex-row flex-col h-full">
+    <div className="mb-32 sm:mb-60 flex w-full gap-16 md:gap-0 md:flex-row flex-col h-full">
       <div className="w-full md:w-[50%] -slate-500 gap-10  h-screen flex flex-col justify-between  p-8">
         <p className="text-normal md:text-xs text-center w-full sm:w-[80%] md:w-[50%] lg:w-[40%] mx-auto md:mx-[70%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis
