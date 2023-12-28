@@ -52,7 +52,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className=" w-full md:w-[50%] flex md:flex-col justify-start md:justify-around items-center">
+      <div className=" w-full md:w-[50%] flex md:flex-col justify-start md:justify-around items-center mb-5 sm:mb-0">
         <div className="relative mt-10 w-full md:w-3/4">
           <Image
             src={img3}

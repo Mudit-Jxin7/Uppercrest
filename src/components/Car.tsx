@@ -70,7 +70,7 @@ const Car = () => {
 
   return (
     <>
-      <h3 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold w-3/4 mx-auto text-center mt-32 mb-32">
+      <h3 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold w-3/4 mx-auto text-center mt-32 sm:mt-64 mb-32">
         IDEAL LOCATION FOR LIVING IN HARMONY WITH NATURE
       </h3>
       <div className="flex flex-row  mx-auto justify-between lg:justify-around w-full -blue-500 md:w-4/5 lg:w-3/5 h-[85%] sm:h-full mt-10">
