@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { CiMail } from "react-icons/ci";
-import "../styles/ScrollingText.css";
+import "@/styles/ScrollingText.css";
 import ScrollingText from "./ScrollingText";
 import LowerFooter from "./LowerFooter";
 

@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
-const poppins = Poppins({
-  weight: "300",
-  subsets: ["latin"],
-  display: "swap",
-});
+import Navbar from "@/components/Globals/Navbar/Navbar";
+import Footer from "@/components/Globals/Footer/Footer";
+import { poppins } from "@/utils/font";
 
 export const metadata: Metadata = {
   title: "UpperCrest",
