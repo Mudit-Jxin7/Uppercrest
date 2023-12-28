@@ -9,6 +9,7 @@ const LowerFooter = () => {
       behavior: "smooth",
     });
   };
+
   return (
     <div className="flex flex-col md:flex-row md:justify-around justify-start">
       <div className="w-full md:w-1/2 flex flex-col justify-start lg:justify-around gap-40">
@@ -20,7 +21,7 @@ const LowerFooter = () => {
             </span>
           </h3>
           <button className="rounded-full border-2 border-slate-500 w-28 h-14 py-2 text-xs md:text-sm">
-            Let's Talk
+            Let&apos;s Talk
           </button>
         </div>
         <div className="hidden lg:flex flex-row justify-between mx-10">
@@ -36,7 +37,7 @@ const LowerFooter = () => {
       <div className="w-full md:w-1/2 flex flex-col justify-between gap-10 sm:gap-20 lg:gap-40">
         <div className="flex flex-row justify-around">
           <p className="text-xs sm:text-sm w-3/4 sm:w-1/2 text-slate-500">
-            If you're ready to find your perfect retreat, our real estate
+            If you&apos;re ready to find your perfect retreat, our real estate
             landing page is the perfect place to start. Browse our listings and
             discover homes that seamlessly blend natural design with modern
             technology. Interested in learning more? Discuss your options with

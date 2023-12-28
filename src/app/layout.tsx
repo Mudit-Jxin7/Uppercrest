@@ -30,7 +30,7 @@ export default function RootLayout({
         <Navbar />
         <div className="w-full h-[0.01rem] bg-slate-500 mb-5"></div>
         {children}
-        <div className="w-full h-[0.01rem] bg-slate-500 my-10"></div>
+
         <Footer />
       </body>
     </html>
