@@ -11,8 +11,8 @@ const LowerFooter = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row md:justify-around justify-start">
-      <div className="w-full md:w-1/2 flex flex-col justify-start lg:justify-around gap-40">
+    <div className="flex flex-col md:flex-row md:justify-around justify-start mb-4">
+      <div className="w-full md:w-1/2 flex flex-col justify-start lg:justify-around mb-[-16rem] sm:mb-0  gap-0 md:gap-40">
         <div className="flex flex-row justify-around md:justify-between md:mx-10">
           <h3 className="text-md sm:text-xl md:text-2xl">
             +5 (389) 734-51-10{" "}
@@ -48,7 +48,7 @@ const LowerFooter = () => {
             onClick={handleScrollToTop}
           />
         </div>
-        <div className="flex flex-row gap-12 sm:gap-0 justify-center sm:justify-around md:justify-between mx-10">
+        <div className="flex flex-row gap-12 sm:gap-0 justify-center sm:justify-around md:justify-between mx-5 md:mx-10">
           <p className="text-[0.6rem] sm:text-sm">
             &#169; Crest Template - Powered by Webflow
           </p>
