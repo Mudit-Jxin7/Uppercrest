@@ -48,11 +48,11 @@ const LowerFooter = () => {
             onClick={handleScrollToTop}
           />
         </div>
-        <div className="flex flex-row gap-12 sm:gap-0 justify-center sm:justify-around md:justify-between mx-5 md:mx-10">
+        <div className="flex flex-row gap-12 sm:gap-0 justify-start sm:justify-start md:justify-center mx-5 md:mx-10">
           <p className="text-[0.6rem] sm:text-sm">
-            &#169; Crest Template - Powered by Webflow
+            &#169; UpperCrest Powered by Cosedge
           </p>
-          <p className="text-[0.6rem] sm:text-sm">Developed By Cosedge</p>
+          {/* <p className="text-[0.6rem] sm:text-sm">Developed By Cosedge</p> */}
         </div>
       </div>
     </div>

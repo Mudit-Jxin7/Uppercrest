@@ -47,7 +47,7 @@ const Car = () => {
     isIOS: boolean
   ) => {
     const adjustedScrollPc = Number(scroll.toFixed(1)) - 3300;
-    const adjustedScrollMobile = Number(scroll.toFixed(1)) - 3300;
+    const adjustedScrollMobile = Number(scroll.toFixed(1)) - 3500;
 
     if (isAndroid || isIOS) {
       if (adjustedScrollMobile <= 0) {

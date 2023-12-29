@@ -6,14 +6,14 @@ import img3 from "@/assets/img3.jpg";
 
 const Hero = () => {
   return (
-    <div className="mb-32 sm:mb-60 flex w-full gap-16 md:gap-0 md:flex-row flex-col h-full">
-      <div className="w-full md:w-[50%] -slate-500 gap-10  h-screen flex flex-col justify-between  p-8">
+    <div className="mb-32 sm:mb-60 flex gap-32 xs:gap-20 sm:gap-60  w-full md:gap-0 md:flex-row flex-col h-full">
+      <div className="w-full md:w-[50%] -slate-500 gap-20  h-screen flex flex-col justify-between  p-8">
         <p className="text-normal md:text-xs text-center w-full sm:w-[80%] md:w-[50%] lg:w-[40%] mx-auto md:mx-[70%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis
           aperiam dicta amet hic delectus, nam enim dolorum commodi recusandae!
         </p>
-        <div className="mt-16 md:mt-0 w-4/5 sm:w-full gap-10 h-1/2 sm:h-full mx-auto sm:mx-0  -green-500 flex flex-row justify-evenly">
-          <div className="gap-3 md:gap-0 md:relative md:top-[-4rem] md:left-[7%] lg:top-[-6%] lg:left-[11%] flex flex-col items-center -blue-500 h-full md:items-end md:justify-center md:mt-5">
+        <div className="md:ml-10 mt-16 gap-10 md:gap-5 md:mt-0 w-4/5 sm:w-full h-1/2 sm:h-full mx-auto sm:mx-0  -green-500 flex flex-row justify-evenly">
+          <div className="lg:gap-10  flex flex-col -red-600 h-full gap-3 lg:items-center">
             <h3 className="text-3xl sm:text-5xl lg:text-6xl xl:text-7xl">
               PERFECT
             </h3>
@@ -24,7 +24,7 @@ const Hero = () => {
                 width={225}
                 className="rounded-md md:left-[4%] h-full w-full"
               />
-              <p className="text-[0.6rem] sm:text-xs text-center lg:text-normal absolute text-white bottom-3 left-4 sm:left-14">
+              <p className="text-[0.6rem] sm:text-xs text-center lg:text-normal absolute text-white bottom-3 left-4 sm:left-12">
                 DISCOVER INTERIORS
               </p>
             </div>
@@ -40,13 +40,13 @@ const Hero = () => {
                 width={225}
                 className="rounded-md h-full w-full"
               />
-              <p className="text-[0.6rem] sm:text-xs lg:text-normal absolute  text-white bottom-3 left-4 sm:left-14 md:left-8">
+              <p className="text-[0.6rem] sm:text-xs lg:text-normal absolute  text-white bottom-3 left-4 sm:left-14 md:left-12">
                 BEDROOM SELECTIONS
               </p>
             </div>
           </div>
         </div>
-        <p className="md:mt-[-5rem] text-center text-normal md:text-xs w-full sm:w-[80%] md:w-[50%] lg:w-[40%] mx-auto md:mx-10">
+        <p className="text-center text-normal md:text-xs w-full sm:w-[80%] md:w-[50%] lg:w-[40%] mx-auto md:mx-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis
           aperiam dicta amet hic delectus, nam enim dolorum commodi recusandae!
         </p>

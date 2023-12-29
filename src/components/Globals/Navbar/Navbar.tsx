@@ -53,7 +53,7 @@ const Nav = () => {
   return (
     <>
       <nav className="h-10 flex flex-row justify-between mx-10 items-center mt-5 mb-5 overflow-hidden">
-        <div>Cosedge</div>
+        <Link href="/">Cosedge</Link>
         <div className="hidden justify-end gap-5 md:flex ">
           <Links />
         </div>

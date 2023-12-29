@@ -6,7 +6,7 @@ import image4 from "@/assets/img4.jpg";
 const About = () => {
   return (
     <>
-      <div className=" md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-5 md:mx-32 mx-5 mt-14">
+      <div className=" md:min-h-screen flex flex-col-reverse md:flex-row items-center gap-5 md:mx-32 mx-5">
         <div className=" w-full md:w-2/4">
           <Image src={image4} alt="Nil" />
         </div>

@@ -36,25 +36,25 @@ const ScrollingText = () => {
   return (
     <div className="scroller" data-speed="fast">
       <div className="tag-pst scroller__inner mx-3">
-        <p className="text-xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
-        <p className="text-xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
-        <p className="text-xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
-        <p className="text-xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
-        <p className="text-xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
-        <p className="text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
-        <p className="text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
+        <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
         </p>
       </div>
