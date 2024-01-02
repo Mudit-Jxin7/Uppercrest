@@ -54,11 +54,11 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="h-10 flex flex-row justify-between mx-2 items-center mt-5 mb-5 overflow-hidden">
-        <div className="ml-2 flex flex-row items-center gap-4">
+      <nav className="h-10 flex flex-row justify-between mx-5 sm:mx-36 items-center mt-5 mb-5 overflow-hidden">
+        <div className="ml-2 flex flex-row items-center gap-2">
           <Image src={logo} alt="nil"/>
 
-        <Link href="/" className="text-sm sm:text-base">Uppercrest Spaces</Link>
+        <Link href="/" className="text-[0.75rem] sm:text-base">Uppercrest Spaces</Link>
         </div>
         <div className="hidden justify-end gap-5 md:flex ">
           <Links />
@@ -81,21 +81,21 @@ const Nav = () => {
             className="mt-4 basis-full md:hidden"
           >
             <motion.div
-              className="ml-5"
+              className="ml-8"
               variants={mobileNavListVariant}
               {...mobileNavExitProps}
             >
               <Link href="/">Home</Link>
             </motion.div>
             <motion.div
-              className="ml-5"
+              className="ml-8"
               variants={mobileNavListVariant}
               {...mobileNavExitProps}
             >
               <Link href="/about">About</Link>
             </motion.div>
             <motion.div
-              className="ml-5"
+              className="ml-8"
               variants={mobileNavListVariant}
               {...mobileNavExitProps}
             >
@@ -104,7 +104,7 @@ const Nav = () => {
           </motion.div>
         )}
       </AnimatePresence>
-      <p className="text-sm sm:text-md text-white mt-12 sm:mt-16 text-right mx-5">Some Changes Start Quiet</p>
+      <p className="text-sm sm:text-md text-white mt-12 sm:mt-16 text-right mx-5 sm:mx-36">Some Changes Start Quiet</p>
     </>
   );
 };
