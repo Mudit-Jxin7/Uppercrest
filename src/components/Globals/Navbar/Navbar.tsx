@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -9,6 +10,7 @@ import {
   mobileNavListVariant,
   mobileNavExitProps,
 } from "@/data/animation-config";
+import logo from "@/assets/logo.svg"
 
 const activeClassName = "selected Link";
 const activeStyleCallback = ({ isActive }: { isActive: Boolean }) =>
@@ -52,8 +54,12 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="h-10 flex flex-row justify-between mx-10 items-center mt-5 mb-5 overflow-hidden">
-        <Link href="/">Uppercrest</Link>
+      <nav className="h-10 flex flex-row justify-between mx-2 items-center mt-5 mb-5 overflow-hidden">
+        <div className="flex flex-row items-center gap-4">
+          <Image src={logo} alt="nil"/>
+
+        <Link href="/" className="text-sm sm:text-base">Uppercrest Spaces</Link>
+        </div>
         <div className="hidden justify-end gap-5 md:flex ">
           <Links />
         </div>

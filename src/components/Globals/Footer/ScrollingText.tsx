@@ -35,21 +35,21 @@ const ScrollingText = () => {
   }, []);
   return (
     <div className="scroller" data-speed="fast">
-      <div className="tag-pst scroller__inner mx-3">
+      <div className="tag-pst scroller__inner">
         <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
-          Contact@crest.io
+         Contact@crest.io
         </p>
         <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
-          Contact@crest.io
+         Contact@crest.io
         </p>
         <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
-          Contact@crest.io
+         Contact@crest.io
         </p>
         <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
-          Contact@crest.io
+         Contact@crest.io
         </p>
         <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
-          Contact@crest.io
+         Contact@crest.io
         </p>
         <p className="text-2xl sm:text-6xl text-orange-500 cursor-pointer hover:text-white transition-all">
           Contact@crest.io
