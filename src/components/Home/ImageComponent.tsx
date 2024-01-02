@@ -9,7 +9,7 @@ const ImageComponent = () => {
       <div className="flex flex-col gap-10 relative justify-center sm:justify-start items-center w-1/2 sm:w-1/5 -red-500">
         <Image src={img5} alt="nil" />
         <h3 className=" text-md top-3 xs:text-xl sm:text-3xl text-[#997950] absolute sm:static xs:top-[1rem]">
-          LOYALTY
+          HONESTY
         </h3>
         <p className="hidden sm:block text-[0.4rem] sm:text-[0.6rem] md:text-xs w-full text-center  sm:mt-48  lg:mt-32">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
@@ -17,8 +17,8 @@ const ImageComponent = () => {
         </p>
       </div>
       <div className="w-3/5 xs:w-2/5 -blue-500 flex justify-center relative items-center">
-        <h3 className="absolute text-[1rem] xs:text-2xl sm:text-4xl lg:text-5xl">
-          PROFFESIONAL
+        <h3 className="absolute text-[1rem] xs:text-xl sm:text-3xl lg:text-[2.5rem]">
+          PROFFESIONALISM
         </h3>
         <Image src={img6} alt="nil" height={500} />
       </div>

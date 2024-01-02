@@ -20,7 +20,7 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
           <h1 className="font-dmserif text-3xl font-normal text-white">
-            Loyalty
+            Honesty
           </h1>
 
           <button className="mt-32 flex flex-row justify-around items-center rounded-md w-full h-20 py-2 px-3.5 font-com  capitalize text-black bg-white shadow shadow-black/60">
