@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ImageComponent = () => {
   return (
-    <div className="flex flex-row w-full -slate-500 justify-center gap-10">
+    <div className="hidden md:flex flex-row w-full -slate-500 mt-32 justify-center gap-10">
       <div className="flex flex-col gap-10 relative justify-center sm:justify-start items-center w-1/2 sm:w-1/5 -red-500">
         <Image src={img5} alt="nil" />
         <h3 className=" text-md top-3 xs:text-xl sm:text-3xl text-[#997950] absolute sm:static xs:top-[1rem]">

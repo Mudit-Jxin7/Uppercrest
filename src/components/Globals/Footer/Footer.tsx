@@ -8,7 +8,8 @@ import LowerFooter from "./LowerFooter";
 const Footer = () => {
   return (
     <>
-      <div className="w-full mt-48 mb-10 flex flex-col items-center justify-center gap-2 md:flex-row md:justify-between px-20">
+
+      <div className="w-full mb-10 flex flex-col items-center justify-center gap-2 md:flex-row md:justify-between px-20">
         <div className="flex flex-row gap-4 items-center">
           <div className="bg-white rounded-full h-7 w-7 flex justify-center items-center">
             <CiMail className="bg-black" />

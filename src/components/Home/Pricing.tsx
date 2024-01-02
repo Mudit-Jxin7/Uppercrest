@@ -8,7 +8,7 @@ import card3 from "@/assets/card3.jpg";
 
 const Pricing = () => {
   return (
-    <div className="grid grid-cols-1 w-[90%] sm:w-full mx-auto gap-20 md:gap-5 md:grid-cols-2 lg:grid-cols-3 mt-32 md:mt-80">
+    <div className="md:hidden grid grid-cols-1 w-[90%] sm:w-full mx-auto gap-20 md:gap-5 md:grid-cols-2 lg:grid-cols-3 mb-20 mt-32 md:mt-80">
       <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
         <div className="h-96 w-full">
           <Image
@@ -20,7 +20,7 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
           <h1 className="font-dmserif text-3xl font-normal text-white">
-            Forest Retreat
+            Loyalty
           </h1>
 
           <button className="mt-32 flex flex-row justify-around items-center rounded-md w-full h-20 py-2 px-3.5 font-com  capitalize text-black bg-white shadow shadow-black/60">
@@ -43,7 +43,7 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
           <h1 className="font-dmserif text-3xl font-normal text-white">
-            Woodland Retreat
+            Professionalism
           </h1>
 
           <button className="mt-32 flex flex-row justify-around items-center rounded-md w-full h-20 py-2 px-3.5 font-com  capitalize text-black bg-white shadow shadow-black/60">
@@ -66,7 +66,7 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
           <h1 className="font-dmserif text-3xl font-normal text-white">
-            Harmony House
+            Clarity
           </h1>
 
           <button className="mt-32 flex flex-row justify-around items-center rounded-md w-full h-20 py-2 px-3.5 font-com  capitalize text-black bg-white shadow shadow-black/60">

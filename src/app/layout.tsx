@@ -22,7 +22,8 @@ export default function RootLayout({
     >
       <body className={poppins.className}>
         <Navbar />
-        <div className="w-full h-[0.01rem] bg-slate-500 mb-5"></div>
+        <p className="text-xs text-[#997950] mt-10 sm:mt-0 md:text-sm flex text-left justify-end items-end mr-10">Some Changes Start Quiet</p>
+
         {children}
 
         <Footer />

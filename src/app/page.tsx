@@ -8,11 +8,11 @@ import React from "react";
 const HomepPage = () => {
   return (
     <div className="bg-black min-h-screen overflow-hidden">
-      <Hero />
+      {/* <Hero /> */}
       <ImageComponent />
       <Pricing />
-      <BigImage />
-      <Car />
+      {/* <BigImage /> */}
+      {/* <Car /> */}
     </div>
   );
 };
