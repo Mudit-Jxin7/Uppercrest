@@ -17,7 +17,7 @@ const Pricing = () => {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center ">
           <h1 className="font-dmserif text-5xl font-normal  text-white">
             Honesty
@@ -40,7 +40,7 @@ const Pricing = () => {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center ">
           <h1 className="font-dmserif text-4xl font-normal  text-white">
             Professionalism
@@ -63,7 +63,7 @@ const Pricing = () => {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center">
           <h1 className="font-dmserif text-5xl font-normal  text-white">
             Clarity
