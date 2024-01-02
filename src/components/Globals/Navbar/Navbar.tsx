@@ -68,6 +68,8 @@ const Nav = () => {
           <button onClick={hrefggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
         </div>
       </nav>
+      
+
       <AnimatePresence mode="wait">
         {isOpen && (
           <motion.div
@@ -102,6 +104,7 @@ const Nav = () => {
           </motion.div>
         )}
       </AnimatePresence>
+      <p className="text-sm sm:text-md text-white mt-12 sm:mt-16 text-right mx-5">Some Changes Start Quiet</p>
     </>
   );
 };
