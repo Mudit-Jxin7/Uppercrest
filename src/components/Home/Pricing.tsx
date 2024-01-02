@@ -9,7 +9,7 @@ import Honesty from "@/assets/Honesty.jpg";
 const Pricing = () => {
   return (
     <div className="md:hidden grid grid-cols-1 w-[90%] sm:w-full mx-auto gap-20 md:gap-5 md:grid-cols-2 lg:grid-cols-3 mb-20 mt-16 md:mt-80">
-      <div className="group relative cursor-pointer items-center justify-center overflow-hidden">
+      <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-2xl hover:shadow-black/50">
         <div className="h-96 w-full">
           <Image
             src={Honesty}
@@ -17,7 +17,7 @@ const Pricing = () => {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
           />
         </div>
-        {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center ">
           <h1 className="font-dmserif text-5xl font-normal  text-white">
             Honesty
@@ -32,7 +32,7 @@ const Pricing = () => {
           </button> */}
         </div>
       </div>
-      <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-2xl hover:shadow-black/50">
         <div className="h-96 w-full">
           <Image
             src={Professional}
@@ -40,7 +40,7 @@ const Pricing = () => {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
           />
         </div>
-        {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center ">
           <h1 className="font-dmserif text-4xl font-normal  text-white">
             Professionalism
@@ -55,7 +55,7 @@ const Pricing = () => {
           </button> */}
         </div>
       </div>
-      <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-2xl hover:shadow-black/50">
         <div className="h-96 w-full">
           <Image
             src={Clarity}
@@ -63,7 +63,7 @@ const Pricing = () => {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
           />
         </div>
-        {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center">
           <h1 className="font-dmserif text-5xl font-normal  text-white">
             Clarity
