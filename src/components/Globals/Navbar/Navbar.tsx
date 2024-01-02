@@ -55,7 +55,7 @@ const Nav = () => {
   return (
     <>
       <nav className="h-10 flex flex-row justify-between mx-2 items-center mt-5 mb-5 overflow-hidden">
-        <div className="flex flex-row items-center gap-4">
+        <div className="ml-2 flex flex-row items-center gap-4">
           <Image src={logo} alt="nil"/>
 
         <Link href="/" className="text-sm sm:text-base">Uppercrest Spaces</Link>
@@ -79,21 +79,21 @@ const Nav = () => {
             className="mt-4 basis-full md:hidden"
           >
             <motion.div
-              className="ml-10"
+              className="ml-5"
               variants={mobileNavListVariant}
               {...mobileNavExitProps}
             >
               <Link href="/">Home</Link>
             </motion.div>
             <motion.div
-              className="ml-10"
+              className="ml-5"
               variants={mobileNavListVariant}
               {...mobileNavExitProps}
             >
               <Link href="/about">About</Link>
             </motion.div>
             <motion.div
-              className="ml-10"
+              className="ml-5"
               variants={mobileNavListVariant}
               {...mobileNavExitProps}
             >
