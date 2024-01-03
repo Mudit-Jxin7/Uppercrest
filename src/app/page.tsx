@@ -9,7 +9,7 @@ import SmallText from "@/components/Home/SmallText";
 const HomepPage = () => {
   return (
     <div className="bg-black min-h-screen overflow-hidden">
-      {/* <Hero /> */}
+      {/* <Hero /> */} 
         <SmallText />
       <ImageComponent />
       <Pricing />
